@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="564.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pruebalogin.pruebalogin.OperatorView">
+   <children>
+      <Pane layoutX="14.0" layoutY="17.0" prefHeight="367.0" prefWidth="116.0">
+         <children>
+            <Button layoutX="32.0" layoutY="108.0" mnemonicParsing="false" text="Ventas" />
+            <Button layoutX="32.0" layoutY="148.0" mnemonicParsing="false" text="Pagos" />
+            <Button layoutX="30.0" layoutY="71.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="52.0" text="Inicio" />
+         </children>
+      </Pane>
+      <Pane layoutX="178.0" layoutY="87.0" prefHeight="301.0" prefWidth="368.0">
+         <children>
+            <Button layoutX="23.0" layoutY="23.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="143.0" text="Ver Planes" />
+            <Button layoutX="23.0" layoutY="151.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="143.0" text="Consultar usuarios" />
+            <Button layoutX="199.0" layoutY="23.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="143.0" text="Iniciar venta" />
+            <Button layoutX="199.0" layoutY="151.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="143.0" text="Otros" />
+         </children>
+      </Pane>
+      <Button layoutX="430.0" layoutY="39.0" mnemonicParsing="false" text="Cerrar sesión" />
+   </children>
+</AnchorPane>
